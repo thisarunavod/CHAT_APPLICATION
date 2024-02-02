@@ -1,0 +1,35 @@
+#clientAnchor{
+    -fx-background-color: linear-gradient(to right top, #cce1f9, #c2e2f6, #bae3f0, #b5e3e9, #b3e2df);
+
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+#ScorllMassage{
+    -fx-background-color: linear-gradient(to right top, #cce1f9, #c2e2f6, #bae3f0, #b5e3e9, #b3e2df);
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+
+}
+
+#clientVBox{
+    -fx-background-color: linear-gradient(to right top, #cce1f9, #c2e2f6, #bae3f0, #b5e3e9, #b3e2df);
+
+}
+#nameAnchor{
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+
+}
+
+#txtClientMessage{
+
+    -fx-effect: dropshadow(two-pass-box, rgba(177, 229, 143, 0.6), 25, 0.5, 0, 0);
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+#txtClientMessage:hover{
+    background-image: linear-gradient(to right top, #e2e2e2, #dce0e7, #cfe0eb, #bfe1e9, #b3e2df);
+
+}

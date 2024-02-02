@@ -1,0 +1,44 @@
+
+#loginAnchor{
+  /*  -fx-background-color:linear-gradient(#6098be, #192626);
+    -fx-effect: dropshadow(two-pass-box, rgba(108, 218, 213, 0.6), 20, 0.2, 0, 0);
+*/
+
+    -fx-background-color: linear-gradient(to right top, #cce1f9, #d6e7ee, #bae3f0, #d7e3e5, #b3e2df);
+
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+
+}
+
+.my_style_class{
+    -fx-background-color: transparent;
+    -fx-border-color: #6253e1  #6253e1  #6253e1  #6253e1;
+
+    -fx-border-width: 3px;
+    -fx-font-size: 15px;
+    -fx-text-fill: #181515;
+    -fx-font-weight: bold;
+
+}
+
+#btnLogin{
+    -fx-background-color: linear-gradient(from 82% 90% to 90% 90% , #6ae874, #42e129);
+    -fx-effect: dropshadow(two-pass-box, rgba(177, 229, 143, 0.6), 25, 0.5, 0, 0);
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px; /*me deken thama button roun karanne*/
+    -fx-cursor: hand;
+
+}
+
+
+#btnLogin:hover{
+    -fx-background-color: linear-gradient(from 82% 90% to 90% 90% , #92e0f1, #10bae5);
+
+
+}
+#btnLogin:pressed{
+    -fx-background-color: linear-gradient(from 82% 90% to 90% 90% , #92e0f1, #014a56);
+    -fx-effect: dropshadow(two-pass-box, rgba(231, 241, 239, 0.6), 25, 0.5, 0, 0);
+
+}
